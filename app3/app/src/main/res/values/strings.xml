@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Ankieta</string>
+    <string name="title_activity_display_result">Wynik ankiety</string>
+</resources>
