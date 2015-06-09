@@ -1,0 +1,17 @@
+pl.dawidpianka.app3.MainActivity -> pl.dawidpianka.app3.MainActivity:
+    java.util.List cbAnswerList -> a
+    java.util.List cbSexList -> b
+    java.util.List cbAgeList -> c
+    android.view.View$OnClickListener onCheckBoxClick -> d
+    android.view.View$OnClickListener onButtonClick -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    void odznaczPozostaleCheckboxy(java.lang.Integer,java.util.List) -> a
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void access$000(pl.dawidpianka.app3.MainActivity,java.lang.Integer,java.util.List) -> a
+pl.dawidpianka.app3.MainActivity$1 -> pl.dawidpianka.app3.a:
+    pl.dawidpianka.app3.MainActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+pl.dawidpianka.app3.MainActivity$2 -> pl.dawidpianka.app3.b:
+    pl.dawidpianka.app3.MainActivity this$0 -> a
+    void onClick(android.view.View) -> onClick

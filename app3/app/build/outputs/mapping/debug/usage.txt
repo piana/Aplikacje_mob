@@ -1,0 +1,10 @@
+pl.dawidpianka.app3.BuildConfig
+pl.dawidpianka.app3.R
+pl.dawidpianka.app3.R$attr
+pl.dawidpianka.app3.R$dimen
+pl.dawidpianka.app3.R$id
+pl.dawidpianka.app3.R$layout
+pl.dawidpianka.app3.R$menu
+pl.dawidpianka.app3.R$mipmap
+pl.dawidpianka.app3.R$string
+pl.dawidpianka.app3.R$style

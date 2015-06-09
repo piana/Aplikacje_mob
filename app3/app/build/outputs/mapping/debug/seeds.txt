@@ -1,0 +1,25 @@
+pl.dawidpianka.app3.MainActivity
+pl.dawidpianka.app3.MainActivity: MainActivity()
+pl.dawidpianka.app3.R$dimen: int activity_horizontal_margin
+pl.dawidpianka.app3.R$dimen: int activity_vertical_margin
+pl.dawidpianka.app3.R$id: int button
+pl.dawidpianka.app3.R$id: int checkBoxAge1
+pl.dawidpianka.app3.R$id: int checkBoxAge2
+pl.dawidpianka.app3.R$id: int checkBoxAge3
+pl.dawidpianka.app3.R$id: int checkBoxAge4
+pl.dawidpianka.app3.R$id: int checkBoxDontKnow
+pl.dawidpianka.app3.R$id: int checkBoxMan
+pl.dawidpianka.app3.R$id: int checkBoxNo
+pl.dawidpianka.app3.R$id: int checkBoxWoman
+pl.dawidpianka.app3.R$id: int checkBoxYes
+pl.dawidpianka.app3.R$id: int editText
+pl.dawidpianka.app3.R$id: int mainActivity
+pl.dawidpianka.app3.R$id: int textView
+pl.dawidpianka.app3.R$id: int textViewName
+pl.dawidpianka.app3.R$id: int textViewQuestion
+pl.dawidpianka.app3.R$id: int textViewSex
+pl.dawidpianka.app3.R$layout: int activity_main
+pl.dawidpianka.app3.R$menu: int menu_main
+pl.dawidpianka.app3.R$mipmap: int ic_launcher
+pl.dawidpianka.app3.R$string: int app_name
+pl.dawidpianka.app3.R$style: int AppTheme

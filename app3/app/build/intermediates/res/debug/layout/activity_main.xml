@@ -1,0 +1,155 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:id="@+id/mainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Czy lubisz przedmiot Aplikacje internetowe i mobilne?"
+        android:id="@+id/textViewQuestion" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tak"
+            android:id="@+id/checkBoxYes"
+            android:checked="false" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nie"
+            android:id="@+id/checkBoxNo"
+            android:checked="false" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nie wiem"
+            android:id="@+id/checkBoxDontKnow"
+            android:checked="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Imię:"
+            android:id="@+id/textViewNameLabel"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editText"
+            android:layout_alignBottom="@+id/textViewNameLabel"
+            android:layout_toEndOf="@+id/textViewNameLabel" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Płeć: "
+            android:id="@+id/textViewSex" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kobieta"
+            android:id="@+id/checkBoxWoman"
+            android:checked="false"
+            android:layout_below="@+id/textViewNameLabel"
+            android:layout_alignParentStart="true" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mężczyzna"
+            android:id="@+id/checkBoxMan"
+            android:layout_alignBottom="@+id/checkBoxWoman"
+            android:layout_toEndOf="@+id/checkBoxWoman"
+            android:checked="false" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Wiek:"
+            android:id="@+id/textView" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="18 - 25"
+            android:id="@+id/checkBoxAge1"
+            android:checked="false" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="26 - 33"
+            android:id="@+id/checkBoxAge2"
+            android:checked="false" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="33 - 40"
+            android:id="@+id/checkBoxAge3"
+            android:checked="false" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="41 - 49"
+            android:id="@+id/checkBoxAge4"
+            android:checked="false" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wyślij"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>
+<!-- From: file:/C:/Users/Adam/Documents/Szkoły/AMW/Semestr%206/Aplikacje%20internetowe%20i%20mobilne/Laboratoria/Aplikacje%20dla%20innych/Dawid%20Pianka/app3/app/src/main/res/layout/activity_main.xml -->

@@ -1,0 +1,767 @@
+_____________________________________________________________________
++ Program class: pl/dawidpianka/app3/MainActivity
+  Superclass:    android/app/Activity
+  Major version: 0x33
+  Minor version: 0x0
+    = target 1.7
+  Access flags:  0x21
+    = public class pl.dawidpianka.app3.MainActivity extends android.app.Activity
+
+Interfaces (count = 0):
+
+Constant Pool (count = 144):
+  + Integer [2130903040]
+  + Integer [2131165184]
+  + Integer [2131230720]
+  + Integer [2131230722]
+  + Integer [2131230723]
+  + Integer [2131230724]
+  + Integer [2131230728]
+  + Integer [2131230729]
+  + Integer [2131230731]
+  + Integer [2131230732]
+  + Integer [2131230733]
+  + Integer [2131230734]
+  + Integer [2131230735]
+  + Class [android/app/Activity]
+  + Class [android/view/MenuInflater]
+  + Class [android/view/View]
+  + Class [android/widget/Button]
+  + Class [android/widget/CheckBox]
+  + Class [android/widget/LinearLayout]
+  + Class [java/lang/Integer]
+  + Class [java/util/ArrayList]
+  + Class [java/util/Iterator]
+  + Class [java/util/List]
+  + Class [pl/dawidpianka/app3/MainActivity]
+  + Class [pl/dawidpianka/app3/a]
+  + Class [pl/dawidpianka/app3/b]
+  + Fieldref [pl/dawidpianka/app3/MainActivity.a Ljava/util/List;]
+  + Fieldref [pl/dawidpianka/app3/MainActivity.b Ljava/util/List;]
+  + Fieldref [pl/dawidpianka/app3/MainActivity.c Ljava/util/List;]
+  + Fieldref [pl/dawidpianka/app3/MainActivity.d Landroid/view/View$OnClickListener;]
+  + Fieldref [pl/dawidpianka/app3/MainActivity.e Landroid/view/View$OnClickListener;]
+  + Methodref [android/app/Activity.<init> ()V]
+  + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+  + Methodref [android/app/Activity.onOptionsItemSelected (Landroid/view/MenuItem;)Z]
+  + Methodref [android/view/MenuInflater.inflate (ILandroid/view/Menu;)V]
+  + Methodref [android/view/View.getId ()I]
+  + Methodref [android/widget/Button.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + Methodref [android/widget/CheckBox.setChecked (Z)V]
+  + Methodref [android/widget/CheckBox.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + Methodref [android/widget/LinearLayout.getChildAt (I)Landroid/view/View;]
+  + Methodref [android/widget/LinearLayout.getChildCount ()I]
+  + Methodref [java/lang/Integer.equals (Ljava/lang/Object;)Z]
+  + Methodref [java/lang/Integer.intValue ()I]
+  + Methodref [java/lang/Integer.valueOf (I)Ljava/lang/Integer;]
+  + Methodref [java/util/ArrayList.<init> ()V]
+  + Methodref [java/util/ArrayList.add (Ljava/lang/Object;)Z]
+  + Methodref [java/util/ArrayList.iterator ()Ljava/util/Iterator;]
+  + Methodref [pl/dawidpianka/app3/MainActivity.a (Ljava/lang/Integer;Ljava/util/List;)V]
+  + Methodref [pl/dawidpianka/app3/MainActivity.findViewById (I)Landroid/view/View;]
+  + Methodref [pl/dawidpianka/app3/MainActivity.getMenuInflater ()Landroid/view/MenuInflater;]
+  + Methodref [pl/dawidpianka/app3/MainActivity.setContentView (I)V]
+  + Methodref [pl/dawidpianka/app3/a.<init> (Lpl/dawidpianka/app3/MainActivity;)V]
+  + Methodref [pl/dawidpianka/app3/b.<init> (Lpl/dawidpianka/app3/MainActivity;)V]
+  + InterfaceMethodref [java/util/Iterator.hasNext ()Z]
+  + InterfaceMethodref [java/util/Iterator.next ()Ljava/lang/Object;]
+  + InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
+  + InterfaceMethodref [java/util/List.iterator ()Ljava/util/Iterator;]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Lpl/dawidpianka/app3/MainActivity;)V]
+  + NameAndType [a (Ljava/lang/Integer;Ljava/util/List;)V]
+  + NameAndType [a Ljava/util/List;]
+  + NameAndType [add (Ljava/lang/Object;)Z]
+  + NameAndType [b Ljava/util/List;]
+  + NameAndType [c Ljava/util/List;]
+  + NameAndType [d Landroid/view/View$OnClickListener;]
+  + NameAndType [e Landroid/view/View$OnClickListener;]
+  + NameAndType [equals (Ljava/lang/Object;)Z]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [getChildAt (I)Landroid/view/View;]
+  + NameAndType [getChildCount ()I]
+  + NameAndType [getId ()I]
+  + NameAndType [getMenuInflater ()Landroid/view/MenuInflater;]
+  + NameAndType [hasNext ()Z]
+  + NameAndType [inflate (ILandroid/view/Menu;)V]
+  + NameAndType [intValue ()I]
+  + NameAndType [iterator ()Ljava/util/Iterator;]
+  + NameAndType [next ()Ljava/lang/Object;]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [onOptionsItemSelected (Landroid/view/MenuItem;)Z]
+  + NameAndType [setChecked (Z)V]
+  + NameAndType [setContentView (I)V]
+  + NameAndType [setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + NameAndType [valueOf (I)Ljava/lang/Integer;]
+  + Utf8 [()I]
+  + Utf8 [()Landroid/view/MenuInflater;]
+  + Utf8 [()Ljava/lang/Object;]
+  + Utf8 [()Ljava/util/Iterator;]
+  + Utf8 [()V]
+  + Utf8 [()Z]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)Ljava/lang/Integer;]
+  + Utf8 [(I)V]
+  + Utf8 [(ILandroid/view/Menu;)V]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Landroid/view/Menu;)Z]
+  + Utf8 [(Landroid/view/MenuItem;)Z]
+  + Utf8 [(Landroid/view/View$OnClickListener;)V]
+  + Utf8 [(Ljava/lang/Integer;Ljava/util/List;)V]
+  + Utf8 [(Ljava/lang/Object;)Z]
+  + Utf8 [(Lpl/dawidpianka/app3/MainActivity;)V]
+  + Utf8 [(Lpl/dawidpianka/app3/MainActivity;Ljava/lang/Integer;Ljava/util/List;)V]
+  + Utf8 [(Z)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Landroid/view/View$OnClickListener;]
+  + Utf8 [Ljava/util/List;]
+  + Utf8 [a]
+  + Utf8 [add]
+  + Utf8 [android/app/Activity]
+  + Utf8 [android/view/MenuInflater]
+  + Utf8 [android/view/View]
+  + Utf8 [android/widget/Button]
+  + Utf8 [android/widget/CheckBox]
+  + Utf8 [android/widget/LinearLayout]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [d]
+  + Utf8 [e]
+  + Utf8 [equals]
+  + Utf8 [findViewById]
+  + Utf8 [getChildAt]
+  + Utf8 [getChildCount]
+  + Utf8 [getId]
+  + Utf8 [getMenuInflater]
+  + Utf8 [hasNext]
+  + Utf8 [inflate]
+  + Utf8 [intValue]
+  + Utf8 [iterator]
+  + Utf8 [java/lang/Integer]
+  + Utf8 [java/util/ArrayList]
+  + Utf8 [java/util/Iterator]
+  + Utf8 [java/util/List]
+  + Utf8 [next]
+  + Utf8 [onCreate]
+  + Utf8 [onCreateOptionsMenu]
+  + Utf8 [onOptionsItemSelected]
+  + Utf8 [pl/dawidpianka/app3/MainActivity]
+  + Utf8 [pl/dawidpianka/app3/a]
+  + Utf8 [pl/dawidpianka/app3/b]
+  + Utf8 [setChecked]
+  + Utf8 [setContentView]
+  + Utf8 [setOnClickListener]
+  + Utf8 [valueOf]
+
+Fields (count = 5):
+  + Field:        a Ljava/util/List;
+    Access flags: 0x0
+      = java.util.List a
+  + Field:        b Ljava/util/List;
+    Access flags: 0x0
+      = java.util.List b
+  + Field:        c Ljava/util/List;
+    Access flags: 0x0
+      = java.util.List c
+  + Field:        d Landroid/view/View$OnClickListener;
+    Access flags: 0x2
+      = private android.view.View$OnClickListener d
+  + Field:        e Landroid/view/View$OnClickListener;
+    Access flags: 0x2
+      = private android.view.View$OnClickListener e
+
+Methods (count = 6):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public MainActivity()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 29, locals = 1, stack = 4):
+      [0] aload_0 v0
+      [1] invokespecial #32
+        + Methodref [android/app/Activity.<init> ()V]
+      [4] aload_0 v0
+      [5] new #25
+        + Class [pl/dawidpianka/app3/a]
+      [8] dup
+      [9] aload_0 v0
+      [10] invokespecial #52
+        + Methodref [pl/dawidpianka/app3/a.<init> (Lpl/dawidpianka/app3/MainActivity;)V]
+      [13] putfield #30
+        + Fieldref [pl/dawidpianka/app3/MainActivity.d Landroid/view/View$OnClickListener;]
+      [16] aload_0 v0
+      [17] new #26
+        + Class [pl/dawidpianka/app3/b]
+      [20] dup
+      [21] aload_0 v0
+      [22] invokespecial #53
+        + Methodref [pl/dawidpianka/app3/b.<init> (Lpl/dawidpianka/app3/MainActivity;)V]
+      [25] putfield #31
+        + Fieldref [pl/dawidpianka/app3/MainActivity.e Landroid/view/View$OnClickListener;]
+      [28] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x4
+      = protected void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 321, locals = 8, stack = 3):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #33
+        + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] ldc #1
+        + Integer [2130903040]
+      [8] invokevirtual #51
+        + Methodref [pl/dawidpianka/app3/MainActivity.setContentView (I)V]
+      [11] aload_0 v0
+      [12] ldc #3
+        + Integer [2131230720]
+      [14] invokevirtual #49
+        + Methodref [pl/dawidpianka/app3/MainActivity.findViewById (I)Landroid/view/View;]
+      [17] checkcast #19
+        + Class [android/widget/LinearLayout]
+      [20] astore_2 v2
+      [21] aload_0 v0
+      [22] ldc #13
+        + Integer [2131230735]
+      [24] invokevirtual #49
+        + Methodref [pl/dawidpianka/app3/MainActivity.findViewById (I)Landroid/view/View;]
+      [27] checkcast #17
+        + Class [android/widget/Button]
+      [30] astore_3 v3
+      [31] aload_0 v0
+      [32] new #21
+        + Class [java/util/ArrayList]
+      [35] dup
+      [36] invokespecial #45
+        + Methodref [java/util/ArrayList.<init> ()V]
+      [39] putfield #27
+        + Fieldref [pl/dawidpianka/app3/MainActivity.a Ljava/util/List;]
+      [42] aload_0 v0
+      [43] new #21
+        + Class [java/util/ArrayList]
+      [46] dup
+      [47] invokespecial #45
+        + Methodref [java/util/ArrayList.<init> ()V]
+      [50] putfield #28
+        + Fieldref [pl/dawidpianka/app3/MainActivity.b Ljava/util/List;]
+      [53] aload_0 v0
+      [54] new #21
+        + Class [java/util/ArrayList]
+      [57] dup
+      [58] invokespecial #45
+        + Methodref [java/util/ArrayList.<init> ()V]
+      [61] putfield #29
+        + Fieldref [pl/dawidpianka/app3/MainActivity.c Ljava/util/List;]
+      [64] new #21
+        + Class [java/util/ArrayList]
+      [67] dup
+      [68] invokespecial #45
+        + Methodref [java/util/ArrayList.<init> ()V]
+      [71] astore v4
+      [73] iconst_0
+      [74] istore v5
+      [76] iload v5
+      [78] aload_2 v2
+      [79] invokevirtual #41
+        + Methodref [android/widget/LinearLayout.getChildCount ()I]
+      [82] ificmpge +175 (target=257)
+      [85] aload_2 v2
+      [86] iload v5
+      [88] invokevirtual #40
+        + Methodref [android/widget/LinearLayout.getChildAt (I)Landroid/view/View;]
+      [91] astore v6
+      [93] aload v6
+      [95] instanceof #18
+        + Class [android/widget/CheckBox]
+      [98] ifeq +153 (target=251)
+      [101] aload v6
+      [103] invokevirtual #36
+        + Methodref [android/view/View.getId ()I]
+      [106] invokestatic #44
+        + Methodref [java/lang/Integer.valueOf (I)Ljava/lang/Integer;]
+      [109] astore v7
+      [111] aload v4
+      [113] aload v7
+      [115] invokevirtual #46
+        + Methodref [java/util/ArrayList.add (Ljava/lang/Object;)Z]
+      [118] pop
+      [119] aload v7
+      [121] invokevirtual #43
+        + Methodref [java/lang/Integer.intValue ()I]
+      [124] ldc #4
+        + Integer [2131230722]
+      [126] ificmpeq +23 (target=149)
+      [129] aload v7
+      [131] invokevirtual #43
+        + Methodref [java/lang/Integer.intValue ()I]
+      [134] ldc #5
+        + Integer [2131230723]
+      [136] ificmpeq +13 (target=149)
+      [139] aload v7
+      [141] invokevirtual #43
+        + Methodref [java/lang/Integer.intValue ()I]
+      [144] ldc #6
+        + Integer [2131230724]
+      [146] ificmpne +18 (target=164)
+      [149] aload_0 v0
+      [150] getfield #27
+        + Fieldref [pl/dawidpianka/app3/MainActivity.a Ljava/util/List;]
+      [153] aload v7
+      [155] invokeinterface #56, 512
+        + InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
+      [160] pop
+      [161] goto +90 (target=251)
+      [164] aload v7
+      [166] invokevirtual #43
+        + Methodref [java/lang/Integer.intValue ()I]
+      [169] ldc #7
+        + Integer [2131230728]
+      [171] ificmpeq +13 (target=184)
+      [174] aload v7
+      [176] invokevirtual #43
+        + Methodref [java/lang/Integer.intValue ()I]
+      [179] ldc #8
+        + Integer [2131230729]
+      [181] ificmpne +18 (target=199)
+      [184] aload_0 v0
+      [185] getfield #28
+        + Fieldref [pl/dawidpianka/app3/MainActivity.b Ljava/util/List;]
+      [188] aload v7
+      [190] invokeinterface #56, 512
+        + InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
+      [195] pop
+      [196] goto +55 (target=251)
+      [199] aload v7
+      [201] invokevirtual #43
+        + Methodref [java/lang/Integer.intValue ()I]
+      [204] ldc #9
+        + Integer [2131230731]
+      [206] ificmpeq +33 (target=239)
+      [209] aload v7
+      [211] invokevirtual #43
+        + Methodref [java/lang/Integer.intValue ()I]
+      [214] ldc #10
+        + Integer [2131230732]
+      [216] ificmpeq +23 (target=239)
+      [219] aload v7
+      [221] invokevirtual #43
+        + Methodref [java/lang/Integer.intValue ()I]
+      [224] ldc #11
+        + Integer [2131230733]
+      [226] ificmpeq +13 (target=239)
+      [229] aload v7
+      [231] invokevirtual #43
+        + Methodref [java/lang/Integer.intValue ()I]
+      [234] ldc #12
+        + Integer [2131230734]
+      [236] ificmpne +15 (target=251)
+      [239] aload_0 v0
+      [240] getfield #29
+        + Fieldref [pl/dawidpianka/app3/MainActivity.c Ljava/util/List;]
+      [243] aload v7
+      [245] invokeinterface #56, 512
+        + InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
+      [250] pop
+      [251] iinc v5, 1
+      [254] goto -178 (target=76)
+      [257] aload v4
+      [259] invokevirtual #47
+        + Methodref [java/util/ArrayList.iterator ()Ljava/util/Iterator;]
+      [262] astore v5
+      [264] aload v5
+      [266] invokeinterface #54, 256
+        + InterfaceMethodref [java/util/Iterator.hasNext ()Z]
+      [271] ifeq +41 (target=312)
+      [274] aload v5
+      [276] invokeinterface #55, 256
+        + InterfaceMethodref [java/util/Iterator.next ()Ljava/lang/Object;]
+      [281] checkcast #20
+        + Class [java/lang/Integer]
+      [284] astore v6
+      [286] aload_0 v0
+      [287] aload v6
+      [289] invokevirtual #43
+        + Methodref [java/lang/Integer.intValue ()I]
+      [292] invokevirtual #49
+        + Methodref [pl/dawidpianka/app3/MainActivity.findViewById (I)Landroid/view/View;]
+      [295] checkcast #18
+        + Class [android/widget/CheckBox]
+      [298] astore v7
+      [300] aload v7
+      [302] aload_0 v0
+      [303] getfield #30
+        + Fieldref [pl/dawidpianka/app3/MainActivity.d Landroid/view/View$OnClickListener;]
+      [306] invokevirtual #39
+        + Methodref [android/widget/CheckBox.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [309] goto -45 (target=264)
+      [312] aload_3 v3
+      [313] aload_0 v0
+      [314] getfield #31
+        + Fieldref [pl/dawidpianka/app3/MainActivity.e Landroid/view/View$OnClickListener;]
+      [317] invokevirtual #37
+        + Methodref [android/widget/Button.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [320] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Ljava/lang/Integer;Ljava/util/List;)V
+    Access flags: 0x2
+      = private void a(java.lang.Integer,java.util.List)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 61, locals = 6, stack = 2):
+      [0] aload_2 v2
+      [1] invokeinterface #57, 256
+        + InterfaceMethodref [java/util/List.iterator ()Ljava/util/Iterator;]
+      [6] astore v4
+      [8] aload v4
+      [10] invokeinterface #54, 256
+        + InterfaceMethodref [java/util/Iterator.hasNext ()Z]
+      [15] ifeq +45 (target=60)
+      [18] aload v4
+      [20] invokeinterface #55, 256
+        + InterfaceMethodref [java/util/Iterator.next ()Ljava/lang/Object;]
+      [25] checkcast #20
+        + Class [java/lang/Integer]
+      [28] astore v5
+      [30] aload v5
+      [32] aload_1 v1
+      [33] invokevirtual #42
+        + Methodref [java/lang/Integer.equals (Ljava/lang/Object;)Z]
+      [36] ifne +21 (target=57)
+      [39] aload_0 v0
+      [40] aload v5
+      [42] invokevirtual #43
+        + Methodref [java/lang/Integer.intValue ()I]
+      [45] invokevirtual #49
+        + Methodref [pl/dawidpianka/app3/MainActivity.findViewById (I)Landroid/view/View;]
+      [48] checkcast #18
+        + Class [android/widget/CheckBox]
+      [51] astore_3 v3
+      [52] aload_3 v3
+      [53] iconst_0
+      [54] invokevirtual #38
+        + Methodref [android/widget/CheckBox.setChecked (Z)V]
+      [57] goto -49 (target=8)
+      [60] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreateOptionsMenu(Landroid/view/Menu;)Z
+    Access flags: 0x1
+      = public boolean onCreateOptionsMenu(android.view.Menu)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 12, locals = 2, stack = 3):
+      [0] aload_0 v0
+      [1] invokevirtual #50
+        + Methodref [pl/dawidpianka/app3/MainActivity.getMenuInflater ()Landroid/view/MenuInflater;]
+      [4] ldc #2
+        + Integer [2131165184]
+      [6] aload_1 v1
+      [7] invokevirtual #35
+        + Methodref [android/view/MenuInflater.inflate (ILandroid/view/Menu;)V]
+      [10] iconst_1
+      [11] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onOptionsItemSelected(Landroid/view/MenuItem;)Z
+    Access flags: 0x1
+      = public boolean onOptionsItemSelected(android.view.MenuItem)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 6, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #34
+        + Methodref [android/app/Activity.onOptionsItemSelected (Landroid/view/MenuItem;)Z]
+      [5] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Lpl/dawidpianka/app3/MainActivity;Ljava/lang/Integer;Ljava/util/List;)V
+    Access flags: 0x1008
+      = static synthetic void a(pl.dawidpianka.app3.MainActivity,java.lang.Integer,java.util.List)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 7, locals = 3, stack = 3):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] aload_2 v2
+      [3] invokespecial #48
+        + Methodref [pl/dawidpianka/app3/MainActivity.a (Ljava/lang/Integer;Ljava/util/List;)V]
+      [6] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: pl/dawidpianka/app3/a
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+    = target 1.7
+  Access flags:  0x20
+    = class pl.dawidpianka.app3.a extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/view/View$OnClickListener]
+
+Constant Pool (count = 61):
+  + Integer [2131230722]
+  + Integer [2131230723]
+  + Integer [2131230724]
+  + Integer [2131230728]
+  + Integer [2131230729]
+  + Integer [2131230731]
+  + Integer [2131230732]
+  + Integer [2131230733]
+  + Integer [2131230734]
+  + Class [android/view/View$OnClickListener]
+  + Class [android/widget/CheckBox]
+  + Class [java/lang/Integer]
+  + Class [java/lang/Object]
+  + Class [pl/dawidpianka/app3/MainActivity]
+  + Class [pl/dawidpianka/app3/a]
+  + Fieldref [pl/dawidpianka/app3/MainActivity.a Ljava/util/List;]
+  + Fieldref [pl/dawidpianka/app3/MainActivity.b Ljava/util/List;]
+  + Fieldref [pl/dawidpianka/app3/MainActivity.c Ljava/util/List;]
+  + Fieldref [pl/dawidpianka/app3/a.a Lpl/dawidpianka/app3/MainActivity;]
+  + Methodref [android/widget/CheckBox.getId ()I]
+  + Methodref [android/widget/CheckBox.isChecked ()Z]
+  + Methodref [java/lang/Integer.intValue ()I]
+  + Methodref [java/lang/Integer.valueOf (I)Ljava/lang/Integer;]
+  + Methodref [java/lang/Object.<init> ()V]
+  + Methodref [pl/dawidpianka/app3/MainActivity.a (Lpl/dawidpianka/app3/MainActivity;Ljava/lang/Integer;Ljava/util/List;)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a (Lpl/dawidpianka/app3/MainActivity;Ljava/lang/Integer;Ljava/util/List;)V]
+  + NameAndType [a Ljava/util/List;]
+  + NameAndType [a Lpl/dawidpianka/app3/MainActivity;]
+  + NameAndType [b Ljava/util/List;]
+  + NameAndType [c Ljava/util/List;]
+  + NameAndType [getId ()I]
+  + NameAndType [intValue ()I]
+  + NameAndType [isChecked ()Z]
+  + NameAndType [valueOf (I)Ljava/lang/Integer;]
+  + Utf8 [()I]
+  + Utf8 [()V]
+  + Utf8 [()Z]
+  + Utf8 [(I)Ljava/lang/Integer;]
+  + Utf8 [(Landroid/view/View;)V]
+  + Utf8 [(Lpl/dawidpianka/app3/MainActivity;)V]
+  + Utf8 [(Lpl/dawidpianka/app3/MainActivity;Ljava/lang/Integer;Ljava/util/List;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Ljava/util/List;]
+  + Utf8 [Lpl/dawidpianka/app3/MainActivity;]
+  + Utf8 [a]
+  + Utf8 [android/view/View$OnClickListener]
+  + Utf8 [android/widget/CheckBox]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [getId]
+  + Utf8 [intValue]
+  + Utf8 [isChecked]
+  + Utf8 [java/lang/Integer]
+  + Utf8 [java/lang/Object]
+  + Utf8 [onClick]
+  + Utf8 [pl/dawidpianka/app3/MainActivity]
+  + Utf8 [pl/dawidpianka/app3/a]
+  + Utf8 [valueOf]
+
+Fields (count = 1):
+  + Field:        a Lpl/dawidpianka/app3/MainActivity;
+    Access flags: 0x1010
+      = final synthetic pl.dawidpianka.app3.MainActivity a
+
+Methods (count = 2):
+  - Method:       <init>(Lpl/dawidpianka/app3/MainActivity;)V
+    Access flags: 0x0
+      = a(pl.dawidpianka.app3.MainActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #19
+        + Fieldref [pl/dawidpianka/app3/a.a Lpl/dawidpianka/app3/MainActivity;]
+      [5] aload_0 v0
+      [6] invokespecial #24
+        + Methodref [java/lang/Object.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onClick(Landroid/view/View;)V
+    Access flags: 0x1
+      = public void onClick(android.view.View)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 153, locals = 4, stack = 3):
+      [0] aload_1 v1
+      [1] checkcast #11
+        + Class [android/widget/CheckBox]
+      [4] astore_2 v2
+      [5] aload_2 v2
+      [6] invokevirtual #20
+        + Methodref [android/widget/CheckBox.getId ()I]
+      [9] invokestatic #23
+        + Methodref [java/lang/Integer.valueOf (I)Ljava/lang/Integer;]
+      [12] astore_3 v3
+      [13] aload_2 v2
+      [14] invokevirtual #21
+        + Methodref [android/widget/CheckBox.isChecked ()Z]
+      [17] ifeq +135 (target=152)
+      [20] aload_3 v3
+      [21] invokevirtual #22
+        + Methodref [java/lang/Integer.intValue ()I]
+      [24] ldc #1
+        + Integer [2131230722]
+      [26] ificmpeq +21 (target=47)
+      [29] aload_3 v3
+      [30] invokevirtual #22
+        + Methodref [java/lang/Integer.intValue ()I]
+      [33] ldc #2
+        + Integer [2131230723]
+      [35] ificmpeq +12 (target=47)
+      [38] aload_3 v3
+      [39] invokevirtual #22
+        + Methodref [java/lang/Integer.intValue ()I]
+      [42] ldc #3
+        + Integer [2131230724]
+      [44] ificmpne +21 (target=65)
+      [47] aload_0 v0
+      [48] getfield #19
+        + Fieldref [pl/dawidpianka/app3/a.a Lpl/dawidpianka/app3/MainActivity;]
+      [51] aload_3 v3
+      [52] aload_0 v0
+      [53] getfield #19
+        + Fieldref [pl/dawidpianka/app3/a.a Lpl/dawidpianka/app3/MainActivity;]
+      [56] getfield #16
+        + Fieldref [pl/dawidpianka/app3/MainActivity.a Ljava/util/List;]
+      [59] invokestatic #25
+        + Methodref [pl/dawidpianka/app3/MainActivity.a (Lpl/dawidpianka/app3/MainActivity;Ljava/lang/Integer;Ljava/util/List;)V]
+      [62] goto +90 (target=152)
+      [65] aload_3 v3
+      [66] invokevirtual #22
+        + Methodref [java/lang/Integer.intValue ()I]
+      [69] ldc #4
+        + Integer [2131230728]
+      [71] ificmpeq +12 (target=83)
+      [74] aload_3 v3
+      [75] invokevirtual #22
+        + Methodref [java/lang/Integer.intValue ()I]
+      [78] ldc #5
+        + Integer [2131230729]
+      [80] ificmpne +21 (target=101)
+      [83] aload_0 v0
+      [84] getfield #19
+        + Fieldref [pl/dawidpianka/app3/a.a Lpl/dawidpianka/app3/MainActivity;]
+      [87] aload_3 v3
+      [88] aload_0 v0
+      [89] getfield #19
+        + Fieldref [pl/dawidpianka/app3/a.a Lpl/dawidpianka/app3/MainActivity;]
+      [92] getfield #17
+        + Fieldref [pl/dawidpianka/app3/MainActivity.b Ljava/util/List;]
+      [95] invokestatic #25
+        + Methodref [pl/dawidpianka/app3/MainActivity.a (Lpl/dawidpianka/app3/MainActivity;Ljava/lang/Integer;Ljava/util/List;)V]
+      [98] goto +54 (target=152)
+      [101] aload_3 v3
+      [102] invokevirtual #22
+        + Methodref [java/lang/Integer.intValue ()I]
+      [105] ldc #6
+        + Integer [2131230731]
+      [107] ificmpeq +30 (target=137)
+      [110] aload_3 v3
+      [111] invokevirtual #22
+        + Methodref [java/lang/Integer.intValue ()I]
+      [114] ldc #7
+        + Integer [2131230732]
+      [116] ificmpeq +21 (target=137)
+      [119] aload_3 v3
+      [120] invokevirtual #22
+        + Methodref [java/lang/Integer.intValue ()I]
+      [123] ldc #8
+        + Integer [2131230733]
+      [125] ificmpeq +12 (target=137)
+      [128] aload_3 v3
+      [129] invokevirtual #22
+        + Methodref [java/lang/Integer.intValue ()I]
+      [132] ldc #9
+        + Integer [2131230734]
+      [134] ificmpne +18 (target=152)
+      [137] aload_0 v0
+      [138] getfield #19
+        + Fieldref [pl/dawidpianka/app3/a.a Lpl/dawidpianka/app3/MainActivity;]
+      [141] aload_3 v3
+      [142] aload_0 v0
+      [143] getfield #19
+        + Fieldref [pl/dawidpianka/app3/a.a Lpl/dawidpianka/app3/MainActivity;]
+      [146] getfield #18
+        + Fieldref [pl/dawidpianka/app3/MainActivity.c Ljava/util/List;]
+      [149] invokestatic #25
+        + Methodref [pl/dawidpianka/app3/MainActivity.a (Lpl/dawidpianka/app3/MainActivity;Ljava/lang/Integer;Ljava/util/List;)V]
+      [152] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: pl/dawidpianka/app3/b
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+    = target 1.7
+  Access flags:  0x20
+    = class pl.dawidpianka.app3.b extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/view/View$OnClickListener]
+
+Constant Pool (count = 19):
+  + Class [android/view/View$OnClickListener]
+  + Class [java/lang/Object]
+  + Class [pl/dawidpianka/app3/b]
+  + Fieldref [pl/dawidpianka/app3/b.a Lpl/dawidpianka/app3/MainActivity;]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a Lpl/dawidpianka/app3/MainActivity;]
+  + Utf8 [()V]
+  + Utf8 [(Landroid/view/View;)V]
+  + Utf8 [(Lpl/dawidpianka/app3/MainActivity;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Lpl/dawidpianka/app3/MainActivity;]
+  + Utf8 [a]
+  + Utf8 [android/view/View$OnClickListener]
+  + Utf8 [java/lang/Object]
+  + Utf8 [onClick]
+  + Utf8 [pl/dawidpianka/app3/b]
+
+Fields (count = 1):
+  + Field:        a Lpl/dawidpianka/app3/MainActivity;
+    Access flags: 0x1010
+      = final synthetic pl.dawidpianka.app3.MainActivity a
+
+Methods (count = 2):
+  - Method:       <init>(Lpl/dawidpianka/app3/MainActivity;)V
+    Access flags: 0x0
+      = b(pl.dawidpianka.app3.MainActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #4
+        + Fieldref [pl/dawidpianka/app3/b.a Lpl/dawidpianka/app3/MainActivity;]
+      [5] aload_0 v0
+      [6] invokespecial #5
+        + Methodref [java/lang/Object.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onClick(Landroid/view/View;)V
+    Access flags: 0x1
+      = public void onClick(android.view.View)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 1, locals = 2, stack = 0):
+      [0] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+

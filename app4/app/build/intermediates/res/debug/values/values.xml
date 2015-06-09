@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Adam/Documents/Szkoły/AMW/Semestr%206/Aplikacje%20internetowe%20i%20mobilne/Laboratoria/Aplikacje%20dla%20innych/Dawid%20Pianka/app4/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/C:/Users/Adam/Documents/Szkoły/AMW/Semestr%206/Aplikacje%20internetowe%20i%20mobilne/Laboratoria/Aplikacje%20dla%20innych/Dawid%20Pianka/app4/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">Liczba przedmiotów</string>
+    <string name="title_activity_subject_number">Liczba przedmiotów</string>
+    <!-- From: file:/C:/Users/Adam/Documents/Szkoły/AMW/Semestr%206/Aplikacje%20internetowe%20i%20mobilne/Laboratoria/Aplikacje%20dla%20innych/Dawid%20Pianka/app4/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
